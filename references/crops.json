@@ -1,0 +1,704 @@
+{
+  "version": 1,
+  "crops": [
+    {
+      "id": "sunset-sky-pearl",
+      "source": "../../原图/242-莫奈-Sunset on the Seine, Winter Effect, 1880.tif",
+      "work": "Sunset on the Seine, Winter Effect",
+      "year": "1880",
+      "group": "sky-atmosphere",
+      "reason": "Pearl, peach, and pale green atmosphere built from restrained broken marks.",
+      "box": {"unit": "normalized", "x": 0.18, "y": 0.04, "width": 0.48, "height": 0.30}
+    },
+    {
+      "id": "sunset-water-orange",
+      "source": "../../原图/242-莫奈-Sunset on the Seine, Winter Effect, 1880.tif",
+      "work": "Sunset on the Seine, Winter Effect",
+      "year": "1880",
+      "group": "water-reflections",
+      "reason": "Short horizontal blue-green marks oppose the vertical orange reflection.",
+      "box": {"unit": "normalized", "x": 0.32, "y": 0.43, "width": 0.38, "height": 0.45}
+    },
+    {
+      "id": "sunset-distant-village",
+      "source": "../../原图/242-莫奈-Sunset on the Seine, Winter Effect, 1880.tif",
+      "work": "Sunset on the Seine, Winter Effect",
+      "year": "1880",
+      "group": "distance-transition",
+      "reason": "Low-contrast silhouettes remain readable through colored winter haze.",
+      "box": {"unit": "normalized", "x": 0.12, "y": 0.32, "width": 0.56, "height": 0.27}
+    },
+    {
+      "id": "sunset-chromatic-glow",
+      "source": "../../原图/242-莫奈-Sunset on the Seine, Winter Effect, 1880.tif",
+      "work": "Sunset on the Seine, Winter Effect",
+      "year": "1880",
+      "group": "sun-shadow",
+      "reason": "A small saturated sun and broken reflection illuminate a muted field without white highlights.",
+      "box": {"unit": "normalized", "x": 0.36, "y": 0.26, "width": 0.24, "height": 0.55}
+    },
+    {
+      "id": "pourville-sea-sparkle",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "water-reflections",
+      "reason": "Pale turquoise, lilac, yellow, and white marks make a luminous sea plane.",
+      "box": {"unit": "normalized", "x": 0.43, "y": 0.10, "width": 0.44, "height": 0.42}
+    },
+    {
+      "id": "pourville-cliff-vegetation",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "vegetation",
+      "reason": "Green, ochre, pink, and violet strokes remain separate across the sunlit cliff.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.43, "width": 0.42, "height": 0.47}
+    },
+    {
+      "id": "pourville-cliff-light",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "sun-shadow",
+      "reason": "Warm cliff light is modeled by neighboring pink, yellow-green, violet, and cream marks.",
+      "box": {"unit": "normalized", "x": 0.24, "y": 0.48, "width": 0.35, "height": 0.42}
+    },
+    {
+      "id": "pourville-sails-distance",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "distance-transition",
+      "reason": "Tiny warm sails preserve scale and depth against a low-contrast green-blue sea.",
+      "box": {"unit": "normalized", "x": 0.50, "y": 0.10, "width": 0.42, "height": 0.33}
+    },
+    {
+      "id": "pourville-boat-figures",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "figures",
+      "reason": "Very small figures are readable through warm silhouettes and economical contrast.",
+      "box": {"unit": "normalized", "x": 0.47, "y": 0.27, "width": 0.30, "height": 0.31}
+    },
+    {
+      "id": "pourville-broken-cliff-marks",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Dense, directionally varied marks keep complementary greens, pinks, and violets distinct.",
+      "box": {"unit": "normalized", "x": 0.12, "y": 0.61, "width": 0.32, "height": 0.32}
+    },
+    {
+      "id": "river-sky-bands",
+      "source": "../../原图/288-莫奈.tif",
+      "work": "River landscape with autumn foliage (file 288)",
+      "group": "sky-atmosphere",
+      "reason": "Cool blue and lavender bands alternate with warm cream cloud marks.",
+      "box": {"unit": "normalized", "x": 0.04, "y": 0.01, "width": 0.52, "height": 0.24}
+    },
+    {
+      "id": "river-autumn-foliage",
+      "source": "../../原图/288-莫奈.tif",
+      "work": "River landscape with autumn foliage (file 288)",
+      "group": "vegetation",
+      "reason": "Red-orange and green foliage strokes remain separate and cluster into tree masses.",
+      "box": {"unit": "normalized", "x": 0.56, "y": 0.04, "width": 0.40, "height": 0.42}
+    },
+    {
+      "id": "river-autumn-reflection",
+      "source": "../../原图/288-莫奈.tif",
+      "work": "River landscape with autumn foliage (file 288)",
+      "group": "water-reflections",
+      "reason": "Horizontal blue strokes cross reflected orange and green vertical masses.",
+      "box": {"unit": "normalized", "x": 0.43, "y": 0.48, "width": 0.47, "height": 0.43}
+    },
+    {
+      "id": "river-boat-figures",
+      "source": "../../原图/288-莫奈.tif",
+      "work": "River landscape with autumn foliage (file 288)",
+      "group": "figures",
+      "reason": "Tiny figures and a dark boat remain legible inside dense chromatic surroundings.",
+      "box": {"unit": "normalized", "x": 0.16, "y": 0.38, "width": 0.34, "height": 0.29}
+    },
+    {
+      "id": "river-bank-water-boundary",
+      "source": "../../原图/288-莫奈.tif",
+      "work": "River landscape with autumn foliage (file 288)",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Contrasting bank and reflection strokes keep a readable edge without outlining it.",
+      "box": {"unit": "normalized", "x": 0.31, "y": 0.39, "width": 0.34, "height": 0.38}
+    },
+    {
+      "id": "venice-pearl-sky",
+      "source": "../../原图/596-莫奈  .jpg",
+      "work": "Venice waterscape with San Giorgio Maggiore (file 596)",
+      "group": "sky-atmosphere",
+      "reason": "Pale blue, green, lilac, and cream marks create luminous marine haze.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.05, "width": 0.52, "height": 0.30}
+    },
+    {
+      "id": "venice-church-geometry",
+      "source": "../../原图/596-莫奈  .jpg",
+      "work": "Venice waterscape with San Giorgio Maggiore (file 596)",
+      "group": "architecture",
+      "reason": "Recognizable church geometry is held by value and temperature shifts instead of hard detail.",
+      "box": {"unit": "normalized", "x": 0.27, "y": 0.18, "width": 0.48, "height": 0.37}
+    },
+    {
+      "id": "venice-haze-distance",
+      "source": "../../原图/596-莫奈  .jpg",
+      "work": "Venice waterscape with San Giorgio Maggiore (file 596)",
+      "group": "distance-transition",
+      "reason": "Architecture, boats, water, and sky share a narrow value range while remaining identifiable.",
+      "box": {"unit": "normalized", "x": 0.16, "y": 0.21, "width": 0.68, "height": 0.39}
+    },
+    {
+      "id": "venice-water-lilac",
+      "source": "../../原图/596-莫奈  .jpg",
+      "work": "Venice waterscape with San Giorgio Maggiore (file 596)",
+      "group": "water-reflections",
+      "reason": "Layered pale blue, lilac, green, and peach strokes create soft but still articulated water.",
+      "box": {"unit": "normalized", "x": 0.18, "y": 0.47, "width": 0.58, "height": 0.38}
+    },
+    {
+      "id": "venice-pastel-separation",
+      "source": "../../原图/596-莫奈  .jpg",
+      "work": "Venice waterscape with San Giorgio Maggiore (file 596)",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Subtle pastel marks remain individually visible without muddying into gray.",
+      "box": {"unit": "normalized", "x": 0.34, "y": 0.53, "width": 0.30, "height": 0.31}
+    },
+    {
+      "id": "woodland-canopy-cool",
+      "source": "../../原图/71-莫奈.tif",
+      "work": "Woodland study (file 71)",
+      "group": "vegetation",
+      "reason": "Cool green-gray foliage is built from irregular directional touches around dark branches.",
+      "box": {"unit": "normalized", "x": 0.04, "y": 0.06, "width": 0.39, "height": 0.44}
+    },
+    {
+      "id": "woodland-trunk-light",
+      "source": "../../原图/71-莫奈.tif",
+      "work": "Woodland study (file 71)",
+      "group": "sun-shadow",
+      "reason": "Dark trunks, pale atmospheric light, and warm earth establish depth through temperature contrast.",
+      "box": {"unit": "normalized", "x": 0.35, "y": 0.24, "width": 0.40, "height": 0.52}
+    },
+    {
+      "id": "woodland-receding-path",
+      "source": "../../原图/71-莫奈.tif",
+      "work": "Woodland study (file 71)",
+      "group": "distance-transition",
+      "reason": "Trunks and ground marks become cooler, smaller, and less contrasted into the distance.",
+      "box": {"unit": "normalized", "x": 0.25, "y": 0.26, "width": 0.42, "height": 0.48}
+    },
+    {
+      "id": "woodland-earth-strokes",
+      "source": "../../原图/71-莫奈.tif",
+      "work": "Woodland study (file 71)",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Long diagonal rust, green, cream, and violet strokes describe sloping ground without blending.",
+      "box": {"unit": "normalized", "x": 0.06, "y": 0.61, "width": 0.46, "height": 0.32}
+    },
+    {
+      "id": "boats-emerald-waves",
+      "source": "../../原图/94-莫奈-Three Fishing Boats 1886.tif",
+      "work": "Three Fishing Boats",
+      "year": "1886",
+      "group": "water-reflections",
+      "reason": "Curved emerald, turquoise, white, and blue marks describe active surf.",
+      "box": {"unit": "normalized", "x": 0.18, "y": 0.01, "width": 0.62, "height": 0.29}
+    },
+    {
+      "id": "boats-hull-contrast",
+      "source": "../../原图/94-莫奈-Three Fishing Boats 1886.tif",
+      "work": "Three Fishing Boats",
+      "year": "1886",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Dark blue-black hulls are energized by adjacent yellow-green, teal, rose, and cream strokes.",
+      "box": {"unit": "normalized", "x": 0.43, "y": 0.38, "width": 0.42, "height": 0.47}
+    },
+    {
+      "id": "boats-beach-streaks",
+      "source": "../../原图/94-莫奈-Three Fishing Boats 1886.tif",
+      "work": "Three Fishing Boats",
+      "year": "1886",
+      "group": "sun-shadow",
+      "reason": "Diagonal cream, peach, blue, and green strokes create sunlit beach structure.",
+      "box": {"unit": "normalized", "x": 0.20, "y": 0.65, "width": 0.38, "height": 0.30}
+    },
+    {
+      "id": "snow-pearl-sky",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "sky-atmosphere",
+      "reason": "Pale blue, warm white, and lilac create an overcast sky without a flat gray fill.",
+      "box": {"unit": "normalized", "x": 0.22, "y": 0.04, "width": 0.49, "height": 0.34}
+    },
+    {
+      "id": "snow-town-structure",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "architecture",
+      "reason": "Church and town remain legible through sparse warm and cool marks in mist.",
+      "box": {"unit": "normalized", "x": 0.37, "y": 0.27, "width": 0.42, "height": 0.36}
+    },
+    {
+      "id": "snow-road-figures",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "figures",
+      "reason": "Grouped walkers read from pose, silhouette, and a few blue and warm accents.",
+      "box": {"unit": "normalized", "x": 0.38, "y": 0.33, "width": 0.29, "height": 0.28}
+    },
+    {
+      "id": "snow-road-colored-white",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "snow-special-light",
+      "reason": "Snow is modeled with blue, violet, peach, cream, and reflected earth colors rather than white alone.",
+      "box": {"unit": "normalized", "x": 0.26, "y": 0.49, "width": 0.49, "height": 0.43}
+    },
+    {
+      "id": "snow-tree-edge",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "snow-special-light",
+      "reason": "Sparse violet-gray branches and pale snow marks keep airy separation at the edge of the road.",
+      "box": {"unit": "normalized", "x": 0.02, "y": 0.24, "width": 0.36, "height": 0.49}
+    },
+    {
+      "id": "snow-track-accents",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "sun-shadow",
+      "reason": "Blue-gray depressions and narrow red-brown tracks structure a luminous white field.",
+      "box": {"unit": "normalized", "x": 0.42, "y": 0.56, "width": 0.43, "height": 0.36}
+    },
+    {
+      "id": "snow-broken-pale-marks",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Near-white strokes stay distinct through slight shifts in hue and value.",
+      "box": {"unit": "normalized", "x": 0.55, "y": 0.51, "width": 0.35, "height": 0.34}
+    },
+    {
+      "id": "composition-sunset-asymmetry",
+      "source": "../../原图/242-莫奈-Sunset on the Seine, Winter Effect, 1880.tif",
+      "work": "Sunset on the Seine, Winter Effect",
+      "year": "1880",
+      "group": "composition-viewpoint",
+      "reason": "Off-center sun, dark banks, low village band, and open water stabilize an atmospheric composition.",
+      "box": {"unit": "normalized", "x": 0.08, "y": 0.12, "width": 0.84, "height": 0.76}
+    },
+    {
+      "id": "composition-pourville-high-view",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "composition-viewpoint",
+      "reason": "High viewpoint, cropped cliff masses, diagonal inlet, and small sails create an observed, unstaged instant.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.04, "width": 0.92, "height": 0.90}
+    },
+    {
+      "id": "composition-river-offset-mass",
+      "source": "../../原图/288-莫奈.tif",
+      "work": "River landscape with autumn foliage (file 288)",
+      "group": "composition-viewpoint",
+      "reason": "A heavy off-center foliage mass balances open sky, bank, narrow river, and tiny boat figures.",
+      "box": {"unit": "normalized", "x": 0.06, "y": 0.05, "width": 0.88, "height": 0.88}
+    },
+    {
+      "id": "composition-snow-road-depth",
+      "source": "../../原图/99-莫奈-Snow Scene at Argenteuil, 1875.tif",
+      "work": "Snow Scene at Argenteuil",
+      "year": "1875",
+      "group": "composition-viewpoint",
+      "reason": "A broad cropped road, figure cluster, distant town, and side trees hold a pale dissolving atmosphere together.",
+      "box": {"unit": "normalized", "x": 0.06, "y": 0.08, "width": 0.88, "height": 0.84}
+    },
+    {
+      "id": "modern-river-boats-and-village",
+      "source": "../../原图/242-莫奈-Sunset on the Seine, Winter Effect, 1880.tif",
+      "work": "Sunset on the Seine, Winter Effect",
+      "year": "1880",
+      "group": "modern-life-motion",
+      "reason": "Small boats, riverside settlement, and reflected light turn an inhabited river into a passing modern scene.",
+      "box": {"unit": "normalized", "x": 0.13, "y": 0.26, "width": 0.68, "height": 0.58}
+    },
+    {
+      "id": "modern-pourville-sailing",
+      "source": "../../原图/249-莫奈-On the Cliff at Pourville, Bright Weather, 1882.tif",
+      "work": "On the Cliff at Pourville, Bright Weather",
+      "year": "1882",
+      "group": "modern-life-motion",
+      "reason": "Leisure boats and tiny figures convey movement and scale without becoming separately detailed subjects.",
+      "box": {"unit": "normalized", "x": 0.39, "y": 0.07, "width": 0.53, "height": 0.51}
+    },
+    {
+      "id": "modern-venice-transit",
+      "source": "../../原图/596-莫奈  .jpg",
+      "work": "Venice waterscape with San Giorgio Maggiore (file 596)",
+      "group": "modern-life-motion",
+      "reason": "Architecture and passing boats remain readable inside luminous marine haze.",
+      "box": {"unit": "normalized", "x": 0.12, "y": 0.13, "width": 0.76, "height": 0.58}
+    },
+    {
+      "id": "modern-fishing-boats-working-shore",
+      "source": "../../原图/94-莫奈-Three Fishing Boats 1886.tif",
+      "work": "Three Fishing Boats",
+      "year": "1886",
+      "group": "modern-life-motion",
+      "reason": "Working boats, rigging diagonals, beach, and active surf form a clear human-use landscape.",
+      "box": {"unit": "normalized", "x": 0.04, "y": 0.03, "width": 0.91, "height": 0.90}
+    },
+    {
+      "id": "figure-study-full-silhouette",
+      "source": "../../原图/原图第二批/191-莫奈-Study of a Figure Outdoors, Facing Right, 1886.tif",
+      "work": "Study of a Figure Outdoors, Facing Right",
+      "year": "1886",
+      "group": "figures",
+      "reason": "A full standing figure stays readable through silhouette, umbrella shape, long dress rhythm, and restrained facial detail.",
+      "box": {"unit": "normalized", "x": 0.18, "y": 0.10, "width": 0.66, "height": 0.70}
+    },
+    {
+      "id": "figure-study-face-parasol",
+      "source": "../../原图/原图第二批/191-莫奈-Study of a Figure Outdoors, Facing Right, 1886.tif",
+      "work": "Study of a Figure Outdoors, Facing Right",
+      "year": "1886",
+      "group": "figures",
+      "reason": "Face, hat, scarf, and parasol use broad value masses and a few identity-bearing accents rather than portrait detail.",
+      "box": {"unit": "normalized", "x": 0.27, "y": 0.08, "width": 0.60, "height": 0.39}
+    },
+    {
+      "id": "figure-study-dress-light",
+      "source": "../../原图/原图第二批/191-莫奈-Study of a Figure Outdoors, Facing Right, 1886.tif",
+      "work": "Study of a Figure Outdoors, Facing Right",
+      "year": "1886",
+      "group": "light-brush-relationship",
+      "reason": "Long pale blue, cream, rose, and green strokes map outdoor light and reflected grass color across white clothing.",
+      "box": {"unit": "normalized", "x": 0.24, "y": 0.31, "width": 0.51, "height": 0.48}
+    },
+    {
+      "id": "figure-study-backlight-edge",
+      "source": "../../原图/原图第二批/191-莫奈-Study of a Figure Outdoors, Facing Right, 1886.tif",
+      "work": "Study of a Figure Outdoors, Facing Right",
+      "year": "1886",
+      "group": "sun-shadow",
+      "reason": "The bright parasol rim and pale dress stay distinct against blue-gray sky without a hard uniform outline.",
+      "box": {"unit": "normalized", "x": 0.24, "y": 0.06, "width": 0.65, "height": 0.55}
+    },
+    {
+      "id": "figure-study-sky-cloud",
+      "source": "../../原图/原图第二批/191-莫奈-Study of a Figure Outdoors, Facing Right, 1886.tif",
+      "work": "Study of a Figure Outdoors, Facing Right",
+      "year": "1886",
+      "group": "sky-atmosphere",
+      "reason": "Blue-gray sky and peach-white clouds use broad directional marks that remain quiet behind the figure.",
+      "box": {"unit": "normalized", "x": 0.02, "y": 0.02, "width": 0.53, "height": 0.37}
+    },
+    {
+      "id": "figure-study-grass-dress-strokes",
+      "source": "../../原图/原图第二批/191-莫奈-Study of a Figure Outdoors, Facing Right, 1886.tif",
+      "work": "Study of a Figure Outdoors, Facing Right",
+      "year": "1886",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Vertical dress strokes meet shorter green, pink, and ochre grass marks while their color identities remain separate.",
+      "box": {"unit": "normalized", "x": 0.15, "y": 0.60, "width": 0.68, "height": 0.34}
+    },
+    {
+      "id": "composition-figure-study-low-view",
+      "source": "../../原图/原图第二批/191-莫奈-Study of a Figure Outdoors, Facing Right, 1886.tif",
+      "work": "Study of a Figure Outdoors, Facing Right",
+      "year": "1886",
+      "group": "composition-viewpoint",
+      "reason": "A low viewpoint, large sky field, off-center parasol, and cropped foreground grass make the figure part of the weather.",
+      "box": {"unit": "normalized", "x": 0.04, "y": 0.03, "width": 0.92, "height": 0.92}
+    },
+    {
+      "id": "parasol-woman-full-gesture",
+      "source": "../../原图/原图第二批/39-莫奈-Woman with a Parasol - Madame Monet and.tif",
+      "work": "Woman with a Parasol – Madame Monet and Her Son",
+      "year": "1875",
+      "group": "figures",
+      "reason": "Pose, turned head, windblown veil, parasol, and sweeping skirt carry identity and movement inside the landscape.",
+      "box": {"unit": "normalized", "x": 0.27, "y": 0.10, "width": 0.57, "height": 0.66}
+    },
+    {
+      "id": "parasol-face-veil-light",
+      "source": "../../原图/原图第二批/39-莫奈-Woman with a Parasol - Madame Monet and.tif",
+      "work": "Woman with a Parasol – Madame Monet and Her Son",
+      "year": "1875",
+      "group": "figures",
+      "reason": "A shaded face remains recognizable beneath a translucent veil through a few warm and cool accents.",
+      "box": {"unit": "normalized", "x": 0.45, "y": 0.11, "width": 0.39, "height": 0.35}
+    },
+    {
+      "id": "parasol-child-distance",
+      "source": "../../原图/原图第二批/39-莫奈-Woman with a Parasol - Madame Monet and.tif",
+      "work": "Woman with a Parasol – Madame Monet and Her Son",
+      "year": "1875",
+      "group": "figures",
+      "reason": "The child reads at distance through a compact head, hat, torso, and value silhouette rather than facial description.",
+      "box": {"unit": "normalized", "x": 0.14, "y": 0.48, "width": 0.31, "height": 0.29}
+    },
+    {
+      "id": "parasol-skirt-sky-light",
+      "source": "../../原图/原图第二批/39-莫奈-Woman with a Parasol - Madame Monet and.tif",
+      "work": "Woman with a Parasol – Madame Monet and Her Son",
+      "year": "1875",
+      "group": "light-brush-relationship",
+      "reason": "Blue sky light, warm reflected grass light, and violet folds become directional strokes across the white dress.",
+      "box": {"unit": "normalized", "x": 0.36, "y": 0.31, "width": 0.46, "height": 0.45}
+    },
+    {
+      "id": "parasol-cloud-wind",
+      "source": "../../原图/原图第二批/39-莫奈-Woman with a Parasol - Madame Monet and.tif",
+      "work": "Woman with a Parasol – Madame Monet and Her Son",
+      "year": "1875",
+      "group": "sky-atmosphere",
+      "reason": "Broken white and blue cloud marks support the same wind direction expressed by veil, grass, and clothing.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.08, "width": 0.47, "height": 0.45}
+    },
+    {
+      "id": "parasol-grass-wind",
+      "source": "../../原图/原图第二批/39-莫奈-Woman with a Parasol - Madame Monet and.tif",
+      "work": "Woman with a Parasol – Madame Monet and Her Son",
+      "year": "1875",
+      "group": "vegetation",
+      "reason": "Yellow-green, blue-green, violet, and dark grass marks vary in length and direction with the wind and slope.",
+      "box": {"unit": "normalized", "x": 0.08, "y": 0.69, "width": 0.78, "height": 0.27}
+    },
+    {
+      "id": "composition-parasol-low-view",
+      "source": "../../原图/原图第二批/39-莫奈-Woman with a Parasol - Madame Monet and.tif",
+      "work": "Woman with a Parasol – Madame Monet and Her Son",
+      "year": "1875",
+      "group": "composition-viewpoint",
+      "reason": "Extreme low viewpoint, diagonal slope, asymmetrical figures, and dominant sky turn portraiture into a passing outdoor instant.",
+      "box": {"unit": "normalized", "x": 0.04, "y": 0.03, "width": 0.92, "height": 0.92}
+    },
+    {
+      "id": "coast-town-pearl-sky",
+      "source": "../../原图/原图第二批/555-莫奈.tif",
+      "work": "Coastal town with distant mountains (file 555)",
+      "group": "sky-atmosphere",
+      "reason": "Pale green, blue, cream, and pink sky bands create luminous dry air without a smooth gradient.",
+      "box": {"unit": "normalized", "x": 0.09, "y": 0.02, "width": 0.76, "height": 0.36}
+    },
+    {
+      "id": "coast-town-sunlit-walls",
+      "source": "../../原图/原图第二批/555-莫奈.tif",
+      "work": "Coastal town with distant mountains (file 555)",
+      "group": "architecture",
+      "reason": "Warm walls and towers remain geometric through adjacent peach, yellow, rose, and blue-violet marks.",
+      "box": {"unit": "normalized", "x": 0.02, "y": 0.34, "width": 0.56, "height": 0.35}
+    },
+    {
+      "id": "coast-town-mountain-distance",
+      "source": "../../原图/原图第二批/555-莫奈.tif",
+      "work": "Coastal town with distant mountains (file 555)",
+      "group": "distance-transition",
+      "reason": "Pink snow peaks and blue-violet mountain masses recede through compressed contrast while keeping a crisp horizon rhythm.",
+      "box": {"unit": "normalized", "x": 0.25, "y": 0.30, "width": 0.70, "height": 0.32}
+    },
+    {
+      "id": "coast-town-turquoise-water",
+      "source": "../../原图/原图第二批/555-莫奈.tif",
+      "work": "Coastal town with distant mountains (file 555)",
+      "group": "water-reflections",
+      "reason": "Horizontal turquoise, lavender, green, and pink marks create a bright sea without blending into a single cyan field.",
+      "box": {"unit": "normalized", "x": 0.17, "y": 0.60, "width": 0.71, "height": 0.34}
+    },
+    {
+      "id": "coast-town-light-to-shadow",
+      "source": "../../原图/原图第二批/555-莫奈.tif",
+      "work": "Coastal town with distant mountains (file 555)",
+      "group": "light-brush-relationship",
+      "reason": "Warm sunlit fort, cool mountain shadow, and sparkling sea are separated through distinct stroke families tied to one light direction.",
+      "box": {"unit": "normalized", "x": 0.02, "y": 0.35, "width": 0.75, "height": 0.46}
+    },
+    {
+      "id": "coast-town-rock-water-marks",
+      "source": "../../原图/原图第二批/555-莫奈.tif",
+      "work": "Coastal town with distant mountains (file 555)",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Dense warm rock touches meet cool horizontal water strokes at a clear material boundary.",
+      "box": {"unit": "normalized", "x": 0.20, "y": 0.49, "width": 0.43, "height": 0.36}
+    },
+    {
+      "id": "composition-coast-town-bands",
+      "source": "../../原图/原图第二批/555-莫奈.tif",
+      "work": "Coastal town with distant mountains (file 555)",
+      "group": "composition-viewpoint",
+      "reason": "Large sky, mountain band, offset town, rocky point, and open water create a flattened but readable sequence of light-bearing planes.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.04, "width": 0.93, "height": 0.88}
+    },
+    {
+      "id": "port-donnant-emerald-water",
+      "source": "../../原图/原图第二批/557-莫奈-Port Donnant, Belle Ile (1886).tif",
+      "work": "Port Donnant, Belle-Île",
+      "year": "1886",
+      "group": "water-reflections",
+      "reason": "Emerald, ultramarine, turquoise, and white marks follow swell and foam around dark rock anchors.",
+      "box": {"unit": "normalized", "x": 0.27, "y": 0.36, "width": 0.52, "height": 0.49}
+    },
+    {
+      "id": "port-donnant-cliff-light",
+      "source": "../../原图/原图第二批/557-莫奈-Port Donnant, Belle Ile (1886).tif",
+      "work": "Port Donnant, Belle-Île",
+      "year": "1886",
+      "group": "sun-shadow",
+      "reason": "Sun-facing cliffs use yellow, pink, cream, and blue-violet strokes beside deep colored shadow.",
+      "box": {"unit": "normalized", "x": 0.25, "y": 0.12, "width": 0.53, "height": 0.43}
+    },
+    {
+      "id": "port-donnant-faceted-light",
+      "source": "../../原图/原图第二批/557-莫奈-Port Donnant, Belle Ile (1886).tif",
+      "work": "Port Donnant, Belle-Île",
+      "year": "1886",
+      "group": "light-brush-relationship",
+      "reason": "Vertical cliff strokes turn toward the light while horizontal and curved water strokes track reflection and swell.",
+      "box": {"unit": "normalized", "x": 0.32, "y": 0.14, "width": 0.51, "height": 0.48}
+    },
+    {
+      "id": "port-donnant-rock-color",
+      "source": "../../原图/原图第二批/557-莫奈-Port Donnant, Belle Ile (1886).tif",
+      "work": "Port Donnant, Belle-Île",
+      "year": "1886",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Pink, orange, yellow, green, blue, and violet strokes remain discrete while resolving into a sunlit rock mass.",
+      "box": {"unit": "normalized", "x": 0.54, "y": 0.34, "width": 0.35, "height": 0.37}
+    },
+    {
+      "id": "composition-port-donnant-inlet",
+      "source": "../../原图/原图第二批/557-莫奈-Port Donnant, Belle Ile (1886).tif",
+      "work": "Port Donnant, Belle-Île",
+      "year": "1886",
+      "group": "composition-viewpoint",
+      "reason": "Dark foreground slopes frame an irregular inlet while illuminated cliffs and rock islands create depth without formal symmetry.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.03, "width": 0.93, "height": 0.91}
+    },
+    {
+      "id": "waterlilies-bright-upper-bands",
+      "source": "../../原图/原图第二批/56-莫奈.tif",
+      "work": "Bright water lilies (file 56)",
+      "group": "bright-water-lilies",
+      "reason": "Pink and white blossoms, yellow-green pads, and warm red separators remain luminous against varied green water.",
+      "box": {"unit": "normalized", "x": 0.02, "y": 0.10, "width": 0.78, "height": 0.34}
+    },
+    {
+      "id": "waterlilies-bright-center-clusters",
+      "source": "../../原图/原图第二批/56-莫奈.tif",
+      "work": "Bright water lilies (file 56)",
+      "group": "bright-water-lilies",
+      "reason": "Separated cream, rose, pink, and green marks make blossoms and pads readable without outlining each flower.",
+      "box": {"unit": "normalized", "x": 0.13, "y": 0.27, "width": 0.72, "height": 0.37}
+    },
+    {
+      "id": "waterlilies-bright-left-glints",
+      "source": "../../原图/原图第二批/56-莫奈.tif",
+      "work": "Bright water lilies (file 56)",
+      "group": "bright-water-lilies",
+      "reason": "Yellow and pale blossoms interrupt green reflections with small high-value chromatic accents.",
+      "box": {"unit": "normalized", "x": 0.00, "y": 0.35, "width": 0.54, "height": 0.36}
+    },
+    {
+      "id": "waterlilies-vertical-reflection",
+      "source": "../../原图/原图第二批/56-莫奈.tif",
+      "work": "Bright water lilies (file 56)",
+      "group": "water-reflections",
+      "reason": "Vertical green and violet reflection strokes are interrupted by horizontal pad bands and blossom accents.",
+      "box": {"unit": "normalized", "x": 0.35, "y": 0.34, "width": 0.55, "height": 0.43}
+    },
+    {
+      "id": "waterlilies-light-on-pads",
+      "source": "../../原图/原图第二批/56-莫奈.tif",
+      "work": "Bright water lilies (file 56)",
+      "group": "light-brush-relationship",
+      "reason": "Small light marks sit on pad clusters while deeper vertical strokes carry reflected vegetation beneath them.",
+      "box": {"unit": "normalized", "x": 0.07, "y": 0.22, "width": 0.68, "height": 0.42}
+    },
+    {
+      "id": "waterlilies-horizontal-vertical-marks",
+      "source": "../../原图/原图第二批/56-莫奈.tif",
+      "work": "Bright water lilies (file 56)",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Horizontal flower and pad strokes cross vertical green, violet, ochre, and turquoise reflections without muddy mixing.",
+      "box": {"unit": "normalized", "x": 0.12, "y": 0.29, "width": 0.45, "height": 0.36}
+    },
+    {
+      "id": "composition-waterlilies-bands",
+      "source": "../../原图/原图第二批/56-莫奈.tif",
+      "work": "Bright water lilies (file 56)",
+      "group": "composition-viewpoint",
+      "reason": "Layered horizontal flower bands and vertical reflections create a surface-based composition while the water plane remains legible.",
+      "box": {"unit": "normalized", "x": 0.02, "y": 0.04, "width": 0.92, "height": 0.86}
+    },
+    {
+      "id": "creuse-river-turn",
+      "source": "../../原图/原图第二批/576-莫奈-The Valley of the Creuse at Fresselines, 1889.tif",
+      "work": "The Valley of the Creuse at Fresselines",
+      "year": "1889",
+      "group": "water-reflections",
+      "reason": "Cool blue-green river strokes bend through warm banks, carrying reflected light and current direction.",
+      "box": {"unit": "normalized", "x": 0.22, "y": 0.34, "width": 0.47, "height": 0.56}
+    },
+    {
+      "id": "creuse-warm-bank",
+      "source": "../../原图/原图第二批/576-莫奈-The Valley of the Creuse at Fresselines, 1889.tif",
+      "work": "The Valley of the Creuse at Fresselines",
+      "year": "1889",
+      "group": "vegetation",
+      "reason": "Ochre, rose, yellow-green, red, and blue marks describe sparse vegetation integrated with exposed rock and earth.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.46, "width": 0.53, "height": 0.46}
+    },
+    {
+      "id": "creuse-hazy-ridge",
+      "source": "../../原图/原图第二批/576-莫奈-The Valley of the Creuse at Fresselines, 1889.tif",
+      "work": "The Valley of the Creuse at Fresselines",
+      "year": "1889",
+      "group": "distance-transition",
+      "reason": "Warm ridge and pale sky compress contrast toward the horizon while darker cuts retain the valley structure.",
+      "box": {"unit": "normalized", "x": 0.04, "y": 0.08, "width": 0.83, "height": 0.38}
+    },
+    {
+      "id": "creuse-light-across-slopes",
+      "source": "../../原图/原图第二批/576-莫奈-The Valley of the Creuse at Fresselines, 1889.tif",
+      "work": "The Valley of the Creuse at Fresselines",
+      "year": "1889",
+      "group": "light-brush-relationship",
+      "reason": "Warm illuminated slopes, blue rock cuts, and cool river marks show one light event through distinct directional stroke families.",
+      "box": {"unit": "normalized", "x": 0.08, "y": 0.24, "width": 0.74, "height": 0.58}
+    },
+    {
+      "id": "creuse-earth-water-contrast",
+      "source": "../../原图/原图第二批/576-莫奈-The Valley of the Creuse at Fresselines, 1889.tif",
+      "work": "The Valley of the Creuse at Fresselines",
+      "year": "1889",
+      "group": "stroke-color-juxtaposition",
+      "reason": "Warm earth strokes and cool water strokes remain visibly separate while forming a continuous valley turn.",
+      "box": {"unit": "normalized", "x": 0.05, "y": 0.55, "width": 0.49, "height": 0.38}
+    },
+    {
+      "id": "composition-creuse-river-valley",
+      "source": "../../原图/原图第二批/576-莫奈-The Valley of the Creuse at Fresselines, 1889.tif",
+      "work": "The Valley of the Creuse at Fresselines",
+      "year": "1889",
+      "group": "composition-viewpoint",
+      "reason": "A winding river, asymmetric banks, high horizon, and cropped foreground create depth through large interlocking color masses.",
+      "box": {"unit": "normalized", "x": 0.03, "y": 0.04, "width": 0.92, "height": 0.91}
+    }
+  ]
+}

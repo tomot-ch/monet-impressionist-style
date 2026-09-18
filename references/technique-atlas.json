@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "scope": "基于用户提供的作品复制图进行可见画面分析；不是颜料检测或修复学结论。",
+  "dimensions": ["stroke_geometry", "surface_evidence", "color_light", "realism_anchor", "transfer_rule", "failure_mode"],
+  "examples": [
+    {
+      "crop_id": "river-sky-bands",
+      "tags": ["broken-bristle-edge", "quiet-passage", "variable-opacity", "surface-variation", "atmospheric-depth"],
+      "stroke_geometry": "云层以长短不等的横向和斜向拖笔交错，局部有细碎断笔；前景植被为另一种较短、较密的笔路。",
+      "surface_evidence": "天空可见不均匀的覆盖与细小画布纹理；一些笔缘在拖行中破开，另一些浅色段较实。复制图不能证明真实颜料层厚度或上色先后。",
+      "color_light": "灰蓝、淡紫、奶油与微暖粉色的差异多属低到中等对比，少数亮部集中出现；不是每一笔都用互补色强撞。",
+      "realism_anchor": "云带的宽窄与地平线上方的空气层次连续，树线作为深色锚点，使松动天空仍可信。",
+      "transfer_rule": "天空转绘以连续的明度大形和安静中间色打底，再少量用有破缘的不同长度色笔标出受光转折。",
+      "failure_mode": "整片天空布满等宽、等饱和的橙紫荧光色带；硬边处处相等。"
+    },
+    {
+      "crop_id": "figure-study-sky-cloud",
+      "tags": ["broad-uneven-cover", "soft-hard-edge-mix", "quiet-passage", "material-specific-marks"],
+      "stroke_geometry": "云和蓝灰天空是宽而不匀的面性涂笔，局部细纹与擦痕可见；人物衣帽是较短、方向更明确的笔触。",
+      "surface_evidence": "一些蓝灰区较薄且露出细微底纹，云的浅色区较实，局部相互蹭入；这只是可见效果，不等于确定的绘制步骤。",
+      "color_light": "灰蓝天空和暖浅云的对比经过中间色缓冲，少量亮点并不把整个区域推成高饱和。",
+      "realism_anchor": "云的大形与人物剪影分工清楚，背景安静使人物姿态可读。",
+      "transfer_rule": "需要油画表面感时，让一部分区域保持较完整的面与细微拖痕，只在焦点或受光转折处露出鲜明独立色笔。",
+      "failure_mode": "给每寸天空同密度、高对比的亮色块，人物和背景竞争同一强度。"
+    },
+    {
+      "crop_id": "coast-town-rock-water-marks",
+      "tags": ["opaque-accent", "broken-bristle-edge", "variable-opacity", "material-specific-marks", "contrast-hierarchy"],
+      "stroke_geometry": "近岸暖色小块短促而多形，水面色笔更细长、更水平；岩岸与水之间有密集但不等距的断续接缝。",
+      "surface_evidence": "亮色岩面有较实的覆盖感，水面多见细小拖痕和局部底色透出；部分笔缘被纹理打断，而非几何色带。",
+      "color_light": "暖岩与冷水的强对比集中在材质交界和受光岩面，大片水域仍由较安静的灰蓝绿支撑。",
+      "realism_anchor": "岸线、墙体与水平方向各自稳定，色彩碎笔没有破坏海岸空间。",
+      "transfer_rule": "用局部较实的不透明亮笔建立焦点，其他区保留较薄、较碎或较安静的笔触；按材质分配笔形。",
+      "failure_mode": "全画面同一种半透明亮色笔刷，海、水、建筑的边缘和覆盖感完全一致。"
+    },
+    {
+      "crop_id": "sunset-water-orange",
+      "tags": ["broken-reflection", "light-causes-marks", "horizontal-water", "recognition-anchor"],
+      "stroke_geometry": "水面以短而分离的横向色笔为主；橙色反光沿竖向路径出现，但每一段仍是横笔。",
+      "surface_evidence": "色笔长短、间隔和边缘不齐；不能从复制图推断确切上色顺序。",
+      "color_light": "橙黄反光与蓝绿色水色紧邻，亮点由同一夕阳光源解释，不把整片水域涂成橙色。",
+      "realism_anchor": "水平方向的水面秩序、反光的垂直对位及远处房屋和船的少量暗形共同保留地点与空间。",
+      "transfer_rule": "照片有低角度阳光和水面时，先定位真实光源及反射路径，再把反光拆成不等长横笔。",
+      "failure_mode": "通幅橙色渐变、等间距装饰条纹或与光源不对位的闪点。"
+    },
+    {
+      "crop_id": "pourville-broken-cliff-marks",
+      "tags": ["varied-mark-scale", "vegetation-mass", "color-juxtaposition", "surface-variation"],
+      "stroke_geometry": "草地和崖面由短弧、挑笔及局部拖笔叠成；方向和密度随地形变化，不是统一贴图。",
+      "surface_evidence": "局部可见较厚的不透明色块、露出的下层色与不齐的笔缘；具体媒材层次仅能作为视觉判断。",
+      "color_light": "绿、黄、粉、紫相邻而不过度揉匀，亮暗和冷暖同时塑造起伏。",
+      "realism_anchor": "大块山崖和草地的坡向先成立，近观碎笔才有依附；并不逐根描画草。",
+      "transfer_rule": "先保留照片的坡面/植被大形，再让局部笔触按坡向改变，疏密不均。",
+      "failure_mode": "把短笔平均撒满全图，或只复制颜色而丢掉地形。"
+    },
+    {
+      "crop_id": "river-autumn-foliage",
+      "tags": ["vegetation-mass", "dark-structural-pockets", "color-juxtaposition", "recognition-anchor"],
+      "stroke_geometry": "树冠用不规则暖色小块聚成团，内部留有深色间隙；并非每片叶都有相同笔形。",
+      "surface_evidence": "小块彼此覆盖和断开，边缘部分松动。",
+      "color_light": "橙红与冷绿、蓝色相邻，深色枝隙使暖色明亮而不漂浮。",
+      "realism_anchor": "树冠外轮廓、枝隙和下方冷色层次让树与河岸仍可辨认。",
+      "transfer_rule": "照片中的树先归纳为受光体积与枝隙，再用成簇异色小笔表现叶面。",
+      "failure_mode": "随机彩色纸屑、无枝隙的糖果色云团。"
+    },
+    {
+      "crop_id": "venice-haze-distance",
+      "tags": ["edge-hierarchy", "atmospheric-depth", "recognition-anchor", "low-contrast-distance"],
+      "stroke_geometry": "远景的笔形较轻、较少，局部竖向塔形仍保留；水面方向与建筑方向分开。",
+      "surface_evidence": "远景边界局部被空气色侵入，但不是整幅数字模糊。",
+      "color_light": "远景明度与色温差缩小，靠局部剪影和边缘选择性维持识别。",
+      "realism_anchor": "钟楼、岸线和建筑群的相对位置准确；软边服务于空间距离。",
+      "transfer_rule": "照片转绘时只降低远景的局部对比与边缘硬度，保留少数能识别地点的轮廓。",
+      "failure_mode": "所有物体同样失焦，或把远景绘得比近景更尖锐。"
+    },
+    {
+      "crop_id": "woodland-earth-strokes",
+      "tags": ["direction-follows-form", "ground-plane", "structural-dark", "surface-variation"],
+      "stroke_geometry": "地面长斜笔顺着坡度走，树干以较直的竖笔建立反方向骨架。",
+      "surface_evidence": "赭红、奶油色与绿色的拖笔长短变化，局部下层色从笔隙透出。",
+      "color_light": "明亮地面与近水平深色带相对，暖光从坡面笔路而非泛黄滤镜产生。",
+      "realism_anchor": "斜坡、水平暗带和竖树三套方向共同建立真实空间。",
+      "transfer_rule": "先读照片的地面倾斜和树干方向，再给不同平面分配不同笔路。",
+      "failure_mode": "让树干和地面使用同一种短笔，导致空间塌平。"
+    },
+    {
+      "crop_id": "snow-road-colored-white",
+      "tags": ["colored-white", "shadow-temperature", "ground-plane", "recognition-anchor"],
+      "stroke_geometry": "雪路由宽短笔与沿路面的拖笔组成，车辙和路缘为更明确的线性结构。",
+      "surface_evidence": "白、蓝紫、桃色和乳黄并置，有局部不平整覆盖；不能据此断定颜料配方。",
+      "color_light": "阴影的冷色与受光雪面的暖色保持分离，白色不是纯白填充。",
+      "realism_anchor": "车辙透视、路缘和远处人形定位雪路的纵深。",
+      "transfer_rule": "先用照片原有色温和投影界定雪的受光面，再把白拆成有方向的邻色笔。",
+      "failure_mode": "纯白雪地上叠均匀蓝色阴影，或彩色笔触破坏车辙透视。"
+    },
+    {
+      "crop_id": "parasol-face-veil-light",
+      "tags": ["figure-recognition", "selective-detail", "translucent-light", "edge-hierarchy"],
+      "stroke_geometry": "脸部用少数暖色面和小暗笔提示，不细描五官；帽、伞、纱和天空各有不同笔形。",
+      "surface_evidence": "纱边与背景局部相融，帽缘与面部关键转折较明确。",
+      "color_light": "暖脸、冷纱和明亮天空互相影响，透明感来自局部色值与断续边缘。",
+      "realism_anchor": "头部位置、帽檐、伞和人物姿态必须先准确，面部少笔仍能识别人。",
+      "transfer_rule": "人物照片先锁定身份关键特征与姿态，再简化脸部细节；只在次要边缘松动。",
+      "failure_mode": "把人脸涂成无特征色斑，或以写实五官和油画背景拼接。"
+    },
+    {
+      "crop_id": "parasol-skirt-sky-light",
+      "tags": ["fabric-follows-form", "wind-motion", "reflected-color", "figure-recognition"],
+      "stroke_geometry": "裙摆蓝紫灰长笔沿褶皱和风向转折，边缘亮笔较短；前景草花用另一套碎笔。",
+      "surface_evidence": "裙部深浅色笔可分别看见，轮廓处有选择性断开。",
+      "color_light": "天空冷色进入白裙阴影，草地暖绿在下部反射，明暗随布料体积变化。",
+      "realism_anchor": "腰部、裙摆体积和风中姿势不变，才不会变成抽象蓝白纹理。",
+      "transfer_rule": "人物转绘时让衣物笔触跟随真实褶皱与运动；颜色来自周围光环境。",
+      "failure_mode": "把裙子整体染蓝或让笔触方向与布料转折无关。"
+    },
+    {
+      "crop_id": "coast-town-sunlit-walls",
+      "tags": ["architecture-geometry", "chromatic-shadow", "light-causes-marks", "recognition-anchor"],
+      "stroke_geometry": "墙体的短块笔仍服从塔楼和墙面的平面转折；轮廓可松，但垂直与水平关系未丢。",
+      "surface_evidence": "奶油、玫瑰和蓝紫色块相贴，亮暗接缝不完全揉合。",
+      "color_light": "暖亮面与冷阴面分别构成建筑体积，而非给同一灰墙覆盖彩色噪点。",
+      "realism_anchor": "塔楼剪影、墙线和地平线维持建筑可辨识度。",
+      "transfer_rule": "建筑照片先保存几何与明暗分面，再用分离色块软化局部硬边。",
+      "failure_mode": "建筑倾斜变形、窗洞随机化或阴影方向与光源冲突。"
+    },
+    {
+      "crop_id": "port-donnant-faceted-light",
+      "tags": ["material-specific-marks", "faceted-rock", "light-causes-marks", "recognition-anchor"],
+      "stroke_geometry": "岩壁用随岩面走向的竖向和斜向块笔，海面用横笔与弯曲浪笔，白浪是更亮更短的破笔。",
+      "surface_evidence": "岩面浅色块与深蓝色缝隙并列，水面有层叠的局部遮盖。",
+      "color_light": "受光岩面呈奶油粉橙，裂隙保持冷暗；海浪高光只落在合适的水势位置。",
+      "realism_anchor": "岩体转折、海岸线和浪形分别成立，才有材质可信度。",
+      "transfer_rule": "为照片里的岩、海、浪分别定义笔形，不把全场统一处理。",
+      "failure_mode": "用同一种碎笔覆盖岩石和水，或在无浪处任意加白色闪点。"
+    },
+    {
+      "crop_id": "waterlilies-bright-center-clusters",
+      "tags": ["bright-water-lily", "horizontal-water", "reflection-depth", "color-juxtaposition"],
+      "stroke_geometry": "浮叶和花由横向短笔与小色块聚成可辨形，倒影有较深的竖向暗痕，水面方向区别于叶形。",
+      "surface_evidence": "浅黄、粉、绿的亮笔与深色水隙分开；并非平涂花朵。",
+      "color_light": "亮点集中于花叶和水面闪光，深绿只作深度与对比，不把整体推向暗蓝。",
+      "realism_anchor": "叶、花、水隙三者的前后和尺度关系清楚，不能只剩漂浮色点。",
+      "transfer_rule": "选明亮局部作参考，同时检查整幅画的总明度；深色仅为局部支撑。",
+      "failure_mode": "深蓝主导、过暗晚期抽象感，或花叶形状完全消失。"
+    },
+    {
+      "crop_id": "creuse-light-across-slopes",
+      "tags": ["direction-follows-form", "atmospheric-depth", "color-juxtaposition", "recognition-anchor"],
+      "stroke_geometry": "坡面以顺坡的短斜笔与块笔推进，水面以更平缓的横向笔组织，岸线转折处笔路改变。",
+      "surface_evidence": "赭黄、粉和蓝色局部覆盖而未全混，有稀密变化。",
+      "color_light": "暖坡与冷色切面并置，河谷亮度与距离变化一致。",
+      "realism_anchor": "山坡走向、谷底水线和前后层次保留，画面虽碎仍能读出地貌。",
+      "transfer_rule": "照片中的每个大平面先确定方向、距离和受光，再分配色笔。",
+      "failure_mode": "整幅平均碎笔和平均饱和度，使谷地失去深度。"
+    }
+  ]
+}

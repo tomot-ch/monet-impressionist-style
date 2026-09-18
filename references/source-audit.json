@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "excluded": [
+    {
+      "source": "../../原图/原图第二批/567-莫奈-The Waterlilies, 1904.tif",
+      "sha256": "d58d9464e2d5d4dd0208073b88ccec802ed180b944e1c3e8c475378599185c48",
+      "reason": "Excluded from default references because the water-lily image is dark green/blue dominant and conflicts with the user's bright-water-lily boundary."
+    },
+    {
+      "source": "../../原图/原图第二批/571-莫奈.tif",
+      "sha256": "ea58ad8923dc3bfc8a9663474a1fba36df227f6a23efac1a5a05c7b2ab0b16ac",
+      "reason": "Excluded as misattributed. The visible signature and composition correspond to Gustave Caillebotte's The Argenteuil Bridge and the Seine, c. 1883, not Claude Monet.",
+      "authority": "https://www.nga.gov/sites/default/files/migrate_images/content/dam/ngaweb/research/publications/pdfs/impressionists-at-argenteuil.pdf"
+    },
+    {
+      "source": "../../原图/原图第二批/573-莫奈.tif",
+      "sha256": "e633e1cbedd14c4913da10bf60f7b95d114d6ab0f910fc7eaf6adfba78ac3afc",
+      "reason": "Excluded as a near-duplicate reproduction of the titled file 576. Downsampled mean absolute pixel difference is approximately 3.97 on a 0-255 scale."
+    }
+  ]
+}

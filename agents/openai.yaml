@@ -1,0 +1,4 @@
+interface:
+  display_name: "莫奈印象派风格"
+  short_description: "生成或改造具有清晰并置色彩笔触的莫奈印象派风格图像"
+  default_prompt: "Use $monet-impressionist-style to create or restyle a recognizable scene with luminous Monet-inspired Impressionist brushwork."
